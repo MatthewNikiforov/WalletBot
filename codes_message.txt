@@ -1,0 +1,56 @@
+📋 Currency codes:
+AMD - Armenian Dram 🇦🇲
+AUD - Australian Dollar 🇦🇺
+AZN - Azerbaijanian Manat 🇦🇿
+BGN - Bulgarian Lev 🇧🇬
+BRL - Brazilian Real 🇧🇷
+BYN - Belarussian Ruble 🇧🇾
+CAD - Canadian Dollar 🇨🇦
+CHF - Swiss Franc 🇨🇭
+CNY - Yuan 🇨🇳
+CZK - Czech Krone 🇨🇿
+DKK - Danish Krone 🇩🇰
+EUR - Euro 🇪🇺
+GBP - Pound Sterling 🇬🇧
+HKD - Hong Kong Dollar 🇭🇰
+HUF - Forint 🇭🇺
+INR - Indian Rupee 🇮🇳
+IDR	- Indonesian Rupiah 🇮🇩
+JPY - Yen 🇯🇵
+KGS - Som 🇰🇬
+KRW - Won 🇰🇷
+KZT - Tenge 🇰🇿
+PHP - Philippine Peso 🇵🇭
+THB - Thai Baht 🇹🇭
+ISK - Iceland Krona 🇮🇸
+ILS - New Israeli Sheqel 🇮🇱
+MYR	- Malaysian Ringgit 🇲🇾
+MXN - Mexican Peso 🇲🇽
+ZAR	- South African Rand 🇿🇦
+HRK - Croatian Kuna 🇭🇷
+MDL - Moldovan Leu 🇲🇩
+NOK - Norwegian Krone 🇳🇴
+NZD - New Zealand Dollar 🇳🇿
+PLN - Zloty 🇵🇱
+RON - Romanian Leu 🇷🇴
+RUB - Russian Ruble 🇷🇺
+SEK - Swedish Krona 🇸🇪
+SGD - Singapore Dollar 🇸🇬
+TJS - Somoni 🇹🇯
+TMT - Turkmenistan New Manat 🇹🇲
+TRY - Turkish Lira 🇹🇷
+UAH - Hryvnia 🇺🇦
+USD - US Dollar 🇺🇸
+UZS - Uzbekistan Sum 🇺🇿
+XDR - SDR (Special Drawing Rights) 🏳
+
+Crypto currency codes:
+BTC - Bitcoin
+ETH - Ethereum
+EOS - EOS
+MIOTA - IOTA
+LTC - Litecoin
+XRP - Ripple
+NVC - Novacoin
+NMC - Namecoin
+PPC - Peercoin

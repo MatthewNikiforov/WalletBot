@@ -1,0 +1,10 @@
+👛 Commands list:
+1. /help - shows this message
+2. /codes - shows currency codes
+3. /rates - shows exchange rates
+4. /crypto - shows crypto currencies exchange rates
+5. /stocks - shows stocks prices
+6. /commodities - shows commodities prices
+7. /metals - shows precious metals prices
+8. /indexes - shows global financial indexes
+9. [amount] [from currency] into [into currency] - converts amount from one currency into another. Example: 10 USD into RUB -> 10.0 USD = 652.74 RUB
