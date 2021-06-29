@@ -2,7 +2,6 @@ import datetime
 import telebot
 
 # import all parsers from the parsers package
-from parsers.currency_parser import CurrencyParser
 from parsers.rub_currency_parser import RUBCurrencyParser
 from parsers.currency_converter import CurrencyConverter
 from parsers.crypto_parser import CryptoParser
@@ -76,37 +75,8 @@ def command_indexes(message):
 
 
 @bot.message_handler(commands=['rates'])
-def command_rates(message):
-    """ '/rates' command offers 3 options (currencies): USD, EUR, RUB, which will be represented in a inline keyboard"""
-
-    # create an inline keyboard
-    codes_keyboard = telebot.types.InlineKeyboardMarkup()
-    # create 3 buttons
-    usd_button = telebot.types.InlineKeyboardButton(text='USD', callback_data='USD')
-    eur_button = telebot.types.InlineKeyboardButton(text='EUR', callback_data='EUR')
-    rub_button = telebot.types.InlineKeyboardButton(text='RUB', callback_data='RUB')
-    codes_keyboard.row(usd_button, eur_button, rub_button)
-    # send a request with 3 options to user about currency, reply processing - rates_callback function
-    bot.send_message(message.from_user.id, text='Which currency?', reply_markup=codes_keyboard)
-
-
-@bot.callback_query_handler(func=lambda call: call.data in ('USD', 'EUR', 'RUB'))
-def rates_callback(call):
-    """Handle rates(previous function) request"""
-
-    if call.data == 'USD':
-        bot_response = f'💱Date: {date}\n' + CurrencyParser('USD').get_currency_inf()
-
-    elif call.data == 'EUR':
-        bot_response = f'💱Date: {date}\n' + CurrencyParser('EUR').get_currency_inf()
-
-    elif call.data == 'RUB':
-        bot_response = f'💱Date: {date}\n' + RUBCurrencyParser().get_currency_inf()
-
-    else:
-        bot_response = 'Error'
-
-    bot.send_message(call.message.chat.id, bot_response)
+    bot_response = f'💱Date: {date}\n' + RUBCurrencyParser().get_currency_inf()
+    bot.send_message(message.chat.id, bot_response)
 
 
 @bot.message_handler(content_types=['text'])
